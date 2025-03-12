@@ -15,20 +15,20 @@ export default defineNuxtConfig({
   $meta:{
     name:'layer-app',
   },
-  components: [
-    {
-      path: '~/components',
-      prefix: 'Groot',
-      pathPrefix: false
-    }
-  ],
+  // components: [
+  //   {
+  //     path: '~/components',
+  //     prefix: 'Groot',
+  //     pathPrefix: false
+  //   }
+  // ],
   // Not needed for now
   // pinia: {
   //   storesDirs: [resolve('./app/stores/*')],
   // },
   ssr:false,
   alias: {
-    '@layer-one': resolve('./'),
+    '@layer-app': resolve('./'),
   },
 
 })
