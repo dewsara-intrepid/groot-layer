@@ -12,17 +12,6 @@ export default defineNuxtConfig({
     compatibilityVersion: 4
   },
   modules: ['@pinia/nuxt'],
-  // $meta:{
-  //   name:'layer-app',
-  // },
-  // components: [
-  //   {
-  //     path: '~/components',
-  //     prefix: 'Groot',
-  //     pathPrefix: false,
-  //     global : true,
-  //   }
-  // ],
   ssr:false,
   alias: {
     '@layer-app': resolve('./'),
