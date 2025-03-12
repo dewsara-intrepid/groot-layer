@@ -12,9 +12,9 @@ export default defineNuxtConfig({
     compatibilityVersion: 4
   },
   modules: ['@pinia/nuxt'],
-  $meta:{
-    name:'layer-app',
-  },
+  // $meta:{
+  //   name:'layer-app',
+  // },
   // components: [
   //   {
   //     path: '~/components',
