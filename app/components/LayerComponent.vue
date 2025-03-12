@@ -10,7 +10,7 @@
 
 <script setup lang="ts">
 import { useDummyDataStore } from '~/stores/useDummyDataStore';
-import { formatDate } from '@layer-app/app/utils/formates';
+import { formatDate } from '~/utils/formates';
 
 const dataStore = useDummyDataStore();
 
