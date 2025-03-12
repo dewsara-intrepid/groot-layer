@@ -15,7 +15,7 @@ import { formatDate } from '@layer-app/app/utils/formates';
 const dataStore = useDummyDataStore();
 
 const myDate = new Date(); // Current date
-const formattedDate = formatDate(myDate, 'DD/MM/YYYY');
+const formattedDate = formatDate(myDate, 'YYYY-MM-DD');
 
 onMounted(async () => {
   //<!-- !This is to call the 3rd Party API through Apps server
